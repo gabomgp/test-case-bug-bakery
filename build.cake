@@ -1,10 +1,11 @@
+#! "netcoreapp2.0"
 #r "bin/debug/netstandard2.0/dotnetcore2.dll"
 
 ///////////////////////////////////////////////////////////////////////////////
 // ARGUMENTS
 ///////////////////////////////////////////////////////////////////////////////
 
-dotnetcore2.Class1.hello()
+dotnetcore2.Class1.hello();
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");

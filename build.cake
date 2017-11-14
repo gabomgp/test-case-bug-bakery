@@ -5,7 +5,7 @@
 // ARGUMENTS
 ///////////////////////////////////////////////////////////////////////////////
 
-dotnetcore2.Class1.hello();
+Console.WriteLine(dotnetcore2.Class1.hello());
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
